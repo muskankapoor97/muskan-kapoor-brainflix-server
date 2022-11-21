@@ -67,7 +67,7 @@ router.get("/", (_req, res) => {
       id: getNewId(),
       title,
       description,
-      image:path.join(__dirname,"../public/cat.jpg") ,
+      image:"http://localhost:8080/images/Upload-video.jpg" ,
       channel:"User",
       views:"0",
       likes:"0",
